@@ -32,19 +32,16 @@ Keeping an existing customer costs less than finding a new one. If the company c
 
 | Model | Precision (Churned) | Recall (Churned) | ROC-AUC |
 |---|---|---|---|
-| Logistic Regression | [your value] | [your value] | [your value] |
-| Random Forest | [your value] | [your value] | [your value] |
+| Logistic Regression | 0.52 | 0.82 | 0.862 |
+| Random Forest | 0.53 | 0.84 | 0.865 |
 
-**Churn rate in the data:** [your value]%
-
-**Top factors behind churn:** [for example: contract type, tenure, monthly charges. Use your own chart.]
-
-**Customers to target first (high risk + high value):** [your number], with about [your number] monthly revenue at risk.
+**Churn rate in the data:** 26.5%
 
 ## Key Insights
 
-- [Write 2 or 3 findings from your own results, for example: month-to-month customers churn much more than customers on long contracts.]
-- Accuracy can be misleading on imbalanced data, so recall for churners was the main metric. Missing a customer who leaves costs more than a false alarm.
+• Month-to-month customers churn far more (about 43%) than one-year customers (about 11%) and two-year customers (about 3%).
+• Only about 1 in 4 customers churn, so the data is imbalanced and class weights were used.
+• Accuracy can be misleading on imbalanced data, so recall for churners was the main metric. Missing a customer who leaves costs more than a false alarm.
 
 ## Business Recommendation
 
