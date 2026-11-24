@@ -40,7 +40,9 @@ Keeping an existing customer costs less than finding a new one. If the company c
 ## Key Insights
 
 • Month-to-month customers churn far more (about 43%) than one-year customers (about 11%) and two-year customers (about 3%).
+
 • Only about 1 in 4 customers churn, so the data is imbalanced and class weights were used.
+
 • Accuracy can be misleading on imbalanced data, so recall for churners was the main metric. Missing a customer who leaves costs more than a false alarm.
 
 ## Business Recommendation
